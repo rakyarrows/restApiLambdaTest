@@ -1,0 +1,127 @@
+alwaysRunPostSteps: false
+appium: false
+autosplit: true
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+captureScreenRecordingForScenarios: false
+codeDirectory: restsharp-api-automation-demo
+collectLocalGitData: true
+combineTasksInMatrixMode: false
+concurrency: 1
+cypress: false
+differentialUpload:
+    enabled: false
+    forcedDisabled: false
+    ttlHours: null
+dynamicAllocation: false
+env:
+    NUGET_HTTP_CACHE_PATH: C:\nuget_http_cache
+    NUGET_PACKAGES: C:\nuget_global_cache
+    NUGET_PLUGINS_CACHE_PATH: C:\nuget_plugins_cache
+errorCategorizedOnFailureOnly: false
+framework:
+    additional_args: null
+    args:
+        appId: ""
+        appPath: ""
+        avoidAppLaunch: false
+        buildName: ""
+        deviceSelectionStrategy: ""
+        devices: []
+        disableReleaseDevice: false
+        filters:
+            attributes: []
+        fixedIP: ""
+        isRealMobile: false
+        language: ""
+        locale: ""
+        minorOsVersion: false
+        mobileDC: null
+        platformName: ""
+        playwrightRD: false
+        preservedDevice: false
+        queueTimeout: 0
+        resignApp: true
+        shards:
+            mappings: []
+        skipInstall: false
+        skipUninstallPreviousBuild: false
+        skipXMLOnRun: false
+        testSuiteAppId: ""
+        testSuitePath: ""
+        uninstallPreviousBuild: false
+        xcTestPlanId: ""
+        xcTestPlanPath: ""
+    baseCommand: ""
+    defaultReports: false
+    discoveryFlags: []
+    discoveryType: ""
+    downloadURL: ""
+    flags: []
+    isTestNGXMLSuite: false
+    licenseKey: ""
+    name: ""
+    runnerFlags: []
+    toscaArgs: null
+    userdefinediscovery: false
+    version: ""
+    workingDirectory: ""
+globalTimeout: 90
+jobID: 3cc32338-0e67-4321-88ae-9f495ae6e8c0
+jobLabel:
+    - PAAutomation_Category
+key: ryAPoPBWyxnfkAuTrSNU6PogdCU1KPkTCLnKkRYO405lpumBom
+maxRetries: 1
+maxRetriesPreSteps: 0
+meta: {}
+platformConfig: null
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+pre:
+    - npm i node-fetch@2.6.1
+    - npm i axios
+    - dotnet list $project package > packages.txt
+    - dotnet build
+preDirectives:
+    commands:
+        - npm i node-fetch@2.6.1
+        - npm i axios
+        - dotnet list $project package > packages.txt
+        - dotnet build
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+project:
+    id: ""
+    name: ""
+    type: default
+retryOnFailure: true
+runson: win
+runtime:
+    language: dotnet
+    version: "6.0"
+    addons: []
+    opts: {}
+skipOnError: true
+sourcePayload:
+    verifySSL: true
+storageType: ""
+testDiscovery:
+    autosubset: true
+    command: echo test
+    mode: dynamic
+    shell: bash
+    type: raw
+testRunnerCommand: dotnet test
+testSuiteStep: 90
+testSuiteTimeout: 90
+testSuites: []
+triggerMode: false
+tunnelNames:
+    - VkMjARVwRFefRUZF
+tunnelOpts:
+    testsPerTunnel: 10
+user: rakesh.adepu
+version: "0.1"

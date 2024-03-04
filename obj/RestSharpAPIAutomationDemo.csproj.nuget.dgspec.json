@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos_others\\restsharp-api-automation-demo\\RestSharpAPIAutomationDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\repos_others\\restsharp-api-automation-demo\\RestSharpAPIAutomationDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos_others\\restsharp-api-automation-demo\\RestSharpAPIAutomationDemo.csproj",
+        "projectName": "RestSharpAPIAutomationDemo",
+        "projectPath": "C:\\repos_others\\restsharp-api-automation-demo\\RestSharpAPIAutomationDemo.csproj",
+        "packagesPath": "C:\\Users\\radepu003\\.nuget\\packages\\",
+        "outputPath": "C:\\repos_others\\restsharp-api-automation-demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\radepu003\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts-west.pwc.com/artifactory/api/nuget/g00051-pwc-gx-bao-nlaqd-nuget": {},
+          "https://artifacts-west.pwc.com/artifactory/api/nuget/v3/g00051-pwc-gx-bao-nlaqd-nuget/index.json": {},
+          "https://packagesource": {},
+          "https://packagesource2": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

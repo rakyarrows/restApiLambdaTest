@@ -1,0 +1,247 @@
+{"level":"debug","time":"2024-03-04T12:32:20.748-0500","caller":"cmd/bin.go:105","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-03-04T12:32:21.090-0500","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.165} "}
+{"level":"info","time":"2024-03-04T12:32:21.090-0500","caller":"cmd/bin.go:122","msg":"Current binary version 0.2.164 is less than max upstream version 0.2.165."}
+{"level":"info","time":"2024-03-04T12:32:21.091-0500","caller":"updater/updater.go:64","msg":"Auto updating binary ..................."}
+{"level":"debug","time":"2024-03-04T12:32:21.091-0500","caller":"updater/updater.go:65","msg":"Download url: https://downloads.hyperexecute.cloud/hyperexecute/windows/hyperexecute.exe"}
+{"level":"debug","time":"2024-03-04T12:32:23.714-0500","caller":"updater/updater.go:85","msg":"New binary downloaded successfully "}
+{"level":"debug","time":"2024-03-04T12:32:23.714-0500","caller":"updater/updater.go:86","msg":"Please run it again "}
+{"level":"info","time":"2024-03-04T12:32:23.714-0500","caller":"cmd/bin.go:132","msg":"Update successfully installed. Please restart the binary"}
+{"level":"debug","time":"2024-03-04T12:32:35.524-0500","caller":"cmd/bin.go:105","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-03-04T12:32:35.800-0500","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.165} "}
+{"level":"debug","time":"2024-03-04T12:32:36.275-0500","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-04T12:32:36.278-0500","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-04T12:32:36.278-0500","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: Lambdatest.yaml"}
+{"level":"error","time":"2024-03-04T12:32:36.280-0500","caller":"core/lifecycle.go:124","msg":"2024-03-04T12:32:35-05:00    error    \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:32:36.281-0500","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-04T12:32:36.282-0500","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-04T12:32:36.282-0500","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-04T12:32:36.282-0500","caller":"cmd/bin.go:309","msg":"Exiting application due to error \u001b[91mERR::NO::HTY\u001b[0m     Unable to find hyperexecute config file.    No file found at location Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:34:22.212-0500","caller":"cmd/bin.go:105","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-03-04T12:34:22.458-0500","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.165} "}
+{"level":"debug","time":"2024-03-04T12:34:22.827-0500","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-04T12:34:22.828-0500","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-04T12:34:22.828-0500","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:34:22.828-0500","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:34:23.042-0500","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:34:23.042-0500","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: true"}
+{"level":"info","time":"2024-03-04T12:34:23.042-0500","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:34:23.471-0500","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:34:23.471-0500","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:34:23.471-0500","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:34:23.471-0500","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:34:23.472-0500","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-04T12:34:23.472-0500","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:34:23.474-0500","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-03-04T12:34:24.033-0500","caller":"core/lifecycle.go:418","msg":"Job ID: b9aa7167-4854-4a89-80c5-d66ad72933f9"}
+{"level":"info","time":"2024-03-04T12:34:24.033-0500","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mTunnel: ON\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:34:24.034-0500","caller":"core/lifecycle.go:481","msg":"Starting 1 tunnels instances"}
+{"level":"debug","time":"2024-03-04T12:34:24.034-0500","caller":"tunnelmanager/setup.go:68","msg":"Download tunnel binary from https://downloads.hyperexecute.cloud/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:34:24.034-0500","caller":"tunnelmanager/setup.go:69","msg":"Tunnel binary download path C:\\repos_others\\restsharp-api-automation-demo/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:34:25.645-0500","caller":"core/lifecycle.go:504","msg":"Waiting for tunnels to start"}
+{"level":"info","time":"2024-03-04T12:34:25.645-0500","caller":"core/lifecycle.go:505","msg":"Tunnel started successfully"}
+{"level":"debug","time":"2024-03-04T12:34:25.650-0500","caller":"tunnelmanager/setup.go:307","msg":"Creating tunnel instance ANrrKpbWnXKqAVkE #1, with params [--user rakesh.adepu --key ryAPoPBWyxnfkAuTrSNU6PogdCU1KPkTCLnKkRYO405lpumBom --callbackURL http://127.0.0.1:51333/started --env ht-prod --tunnelName ANrrKpbWnXKqAVkE --retry-on-failure --infoAPIPort 51334 --logFile C:\\repos_others\\restsharp-api-automation-demo\\logs\\tunnel\\ANrrKpbWnXKqAVkE-1.log]"}
+{"level":"debug","time":"2024-03-04T12:34:27.342-0500","caller":"storage/azure.go:55","msg":"Payload size: 3.40 kB, source path C:\\Users\\RADEPU~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-03-04T12:34:27.344-0500","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2024-03-04T12:34:27.794-0500","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"debug","time":"2024-03-04T12:34:29.274-0500","caller":"tunnelmanager/setup.go:174","msg":"Running new tunnel instance ANrrKpbWnXKqAVkE"}
+{"level":"debug","time":"2024-03-04T12:34:29.275-0500","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-03-04T12:34:29.275-0500","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:34:30.614-0500","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-04T12:34:30.614-0500","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-04T12:34:30.943-0500","caller":"tunnelmanager/setup.go:275","msg":"All tunnels closed successfully"}
+{"level":"debug","time":"2024-03-04T12:34:30.943-0500","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-04T12:34:30.943-0500","caller":"cmd/bin.go:309","msg":"Exiting application due to error ERR::ZIP::ARC     Unable to generate zip. open C:\\repos_others\\restsharp-api-automation-demo\\.vs\\RestSharpAPIAutomationDemo\\FileContentIndex\\01871de3-05d5-44db-b3ff-9dfb1965e2e7.vsidx: The process cannot access the file because it is being used by another process.\n    Unable to parse target [C:\\repos_others\\restsharp-api-automation-demo] directory to archive files open C:\\repos_others\\restsharp-api-automation-demo\\.vs\\RestSharpAPIAutomationDemo\\FileContentIndex\\01871de3-05d5-44db-b3ff-9dfb1965e2e7.vsidx: The process cannot access the file because it is being used by another process."}
+{"level":"debug","time":"2024-03-04T12:36:33.386-0500","caller":"cmd/bin.go:105","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-03-04T12:36:33.656-0500","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.165} "}
+{"level":"debug","time":"2024-03-04T12:36:34.908-0500","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-04T12:36:34.909-0500","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-04T12:36:34.909-0500","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:36:34.909-0500","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:36:35.155-0500","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:36:35.155-0500","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: true"}
+{"level":"info","time":"2024-03-04T12:36:35.155-0500","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:36:35.157-0500","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:36:35.157-0500","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:36:35.157-0500","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:36:35.158-0500","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:36:35.158-0500","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-04T12:36:35.158-0500","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:36:35.158-0500","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-03-04T12:36:35.629-0500","caller":"core/lifecycle.go:418","msg":"Job ID: 7884d7a6-cffe-40c9-a743-60e19f934d08"}
+{"level":"info","time":"2024-03-04T12:36:35.629-0500","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mTunnel: ON\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:36:36.080-0500","caller":"core/lifecycle.go:481","msg":"Starting 1 tunnels instances"}
+{"level":"debug","time":"2024-03-04T12:36:36.142-0500","caller":"tunnelmanager/setup.go:68","msg":"Download tunnel binary from https://downloads.hyperexecute.cloud/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:36:36.142-0500","caller":"tunnelmanager/setup.go:69","msg":"Tunnel binary download path C:\\repos_others\\restsharp-api-automation-demo/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:36:38.003-0500","caller":"core/lifecycle.go:504","msg":"Waiting for tunnels to start"}
+{"level":"info","time":"2024-03-04T12:36:38.003-0500","caller":"core/lifecycle.go:505","msg":"Tunnel started successfully"}
+{"level":"debug","time":"2024-03-04T12:36:38.006-0500","caller":"tunnelmanager/setup.go:307","msg":"Creating tunnel instance nQKCbkKzVMyyxDOK #1, with params [--user rakesh.adepu --key ryAPoPBWyxnfkAuTrSNU6PogdCU1KPkTCLnKkRYO405lpumBom --callbackURL http://127.0.0.1:57764/started --env ht-prod --tunnelName nQKCbkKzVMyyxDOK --retry-on-failure --infoAPIPort 57765 --logFile C:\\repos_others\\restsharp-api-automation-demo\\logs\\tunnel\\nQKCbkKzVMyyxDOK-1.log]"}
+{"level":"debug","time":"2024-03-04T12:36:38.896-0500","caller":"storage/azure.go:55","msg":"Payload size: 3.55 kB, source path C:\\Users\\RADEPU~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-03-04T12:36:40.640-0500","caller":"tunnelmanager/setup.go:174","msg":"Running new tunnel instance nQKCbkKzVMyyxDOK"}
+{"level":"debug","time":"2024-03-04T12:36:40.642-0500","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-03-04T12:36:40.642-0500","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:36:41.784-0500","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-04T12:36:41.784-0500","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-04T12:36:42.100-0500","caller":"tunnelmanager/setup.go:275","msg":"All tunnels closed successfully"}
+{"level":"debug","time":"2024-03-04T12:36:42.103-0500","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-04T12:36:42.103-0500","caller":"cmd/bin.go:309","msg":"Exiting application due to error ERR::ZIP::ARC     Unable to generate zip. open C:\\repos_others\\restsharp-api-automation-demo\\.vs\\RestSharpAPIAutomationDemo\\FileContentIndex\\122c137d-94c3-4ddd-8769-ee211dd1f25a.vsidx: The process cannot access the file because it is being used by another process.\n    Unable to parse target [C:\\repos_others\\restsharp-api-automation-demo] directory to archive files open C:\\repos_others\\restsharp-api-automation-demo\\.vs\\RestSharpAPIAutomationDemo\\FileContentIndex\\122c137d-94c3-4ddd-8769-ee211dd1f25a.vsidx: The process cannot access the file because it is being used by another process."}
+{"level":"debug","time":"2024-03-04T12:38:12.856-0500","caller":"cmd/bin.go:105","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-03-04T12:38:13.137-0500","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.165} "}
+{"level":"debug","time":"2024-03-04T12:38:13.533-0500","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-04T12:38:13.534-0500","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-04T12:38:13.534-0500","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:38:13.534-0500","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:38:13.781-0500","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:38:13.824-0500","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: true"}
+{"level":"info","time":"2024-03-04T12:38:13.824-0500","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:38:13.825-0500","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:38:13.825-0500","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:38:13.825-0500","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:38:13.826-0500","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:38:13.826-0500","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-04T12:38:13.826-0500","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:38:13.827-0500","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-03-04T12:38:14.329-0500","caller":"core/lifecycle.go:418","msg":"Job ID: b466e3c4-794c-4e74-a0e8-4066ed6cf731"}
+{"level":"info","time":"2024-03-04T12:38:14.329-0500","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mTunnel: ON\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:38:14.329-0500","caller":"core/lifecycle.go:481","msg":"Starting 1 tunnels instances"}
+{"level":"debug","time":"2024-03-04T12:38:14.330-0500","caller":"tunnelmanager/setup.go:68","msg":"Download tunnel binary from https://downloads.hyperexecute.cloud/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:38:14.330-0500","caller":"tunnelmanager/setup.go:69","msg":"Tunnel binary download path C:\\repos_others\\restsharp-api-automation-demo/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:38:16.113-0500","caller":"core/lifecycle.go:504","msg":"Waiting for tunnels to start"}
+{"level":"info","time":"2024-03-04T12:38:16.113-0500","caller":"core/lifecycle.go:505","msg":"Tunnel started successfully"}
+{"level":"debug","time":"2024-03-04T12:38:16.116-0500","caller":"tunnelmanager/setup.go:307","msg":"Creating tunnel instance mGHCacvGykQFuGMD #1, with params [--user rakesh.adepu --key ryAPoPBWyxnfkAuTrSNU6PogdCU1KPkTCLnKkRYO405lpumBom --callbackURL http://127.0.0.1:57971/started --env ht-prod --tunnelName mGHCacvGykQFuGMD --retry-on-failure --infoAPIPort 57972 --logFile C:\\repos_others\\restsharp-api-automation-demo\\logs\\tunnel\\mGHCacvGykQFuGMD-1.log]"}
+{"level":"debug","time":"2024-03-04T12:38:16.987-0500","caller":"storage/azure.go:55","msg":"Payload size: 3.55 kB, source path C:\\Users\\RADEPU~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-03-04T12:38:19.800-0500","caller":"tunnelmanager/setup.go:174","msg":"Running new tunnel instance mGHCacvGykQFuGMD"}
+{"level":"debug","time":"2024-03-04T12:38:19.801-0500","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-03-04T12:38:19.801-0500","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:38:37.510-0500","caller":"core/lifecycle.go:553","msg":"Zip file size: 32.11 MB"}
+{"level":"debug","time":"2024-03-04T12:38:37.515-0500","caller":"core/lifecycle.go:563","msg":"Archive location: C:\\repos_others\\restsharp-api-automation-demo\\hyperexecute-code-b466e3c4-794c-4e74-a0e8-4066ed6cf731.zip\n"}
+{"level":"debug","time":"2024-03-04T12:38:37.533-0500","caller":"storage/azure.go:55","msg":"Payload size: 32.11 MB, source path C:\\repos_others\\restsharp-api-automation-demo\\hyperexecute-code-b466e3c4-794c-4e74-a0e8-4066ed6cf731.zip"}
+{"level":"debug","time":"2024-03-04T12:38:46.476-0500","caller":"receptionmanager/setup.go:217","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-03-04T12:38:46.480-0500","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : C:\\repos_others\\restsharp-api-automation-demo\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:38:46.510-0500","caller":"storage/azure.go:55","msg":"Payload size: 2.88 kB, source path C:\\repos_others\\restsharp-api-automation-demo\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:38:51.147-0500","caller":"core/lifecycle.go:591","msg":"Successfully deleted code archive: C:\\repos_others\\restsharp-api-automation-demo\\hyperexecute-code-b466e3c4-794c-4e74-a0e8-4066ed6cf731.zip\n"}
+{"level":"info","time":"2024-03-04T12:39:01.935-0500","caller":"jobmanager/setup.go:129","msg":"Job b466e3c4-794c-4e74-a0e8-4066ed6cf731 has started RUNNING"}
+{"level":"info","time":"2024-03-04T12:39:01.935-0500","caller":"jobmanager/setup.go:372","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b466e3c4-794c-4e74-a0e8-4066ed6cf731\n"}
+{"level":"debug","time":"2024-03-04T12:39:01.935-0500","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-03-04T12:39:01.935-0500","caller":"jobmanager/setup.go:149","msg":"Task id: 540bf37e-7378-44db-9a2e-9ff70c257882"}
+{"level":"debug","time":"2024-03-04T12:39:01.935-0500","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: 540bf37e-7378-44db-9a2e-9ff70c257882"}
+{"level":"info","time":"2024-03-04T12:39:37.931-0500","caller":"terminal/terminal.go:185","msg":"✔ [1]  setup-runtime (36s)\n"}
+{"level":"info","time":"2024-03-04T12:40:10.191-0500","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (29s)\n"}
+{"level":"info","time":"2024-03-04T12:40:14.622-0500","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2024-03-04T12:41:34.850-0500","caller":"terminal/terminal.go:185","msg":"x [1]  test (6s)\n"}
+{"level":"info","time":"2024-03-04T12:41:43.754-0500","caller":"terminal/terminal.go:185","msg":"x [1]  {retry 1} test (7s)\n"}
+{"level":"debug","time":"2024-03-04T12:41:46.963-0500","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2024-03-04T12:41:46.963-0500","caller":"core/lifecycle.go:662","msg":"taskId:540bf37e-7378-44db-9a2e-9ff70c257882 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"info","time":"2024-03-04T12:41:46.963-0500","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n FAILED \n"}
+{"level":"debug","time":"2024-03-04T12:41:46.963-0500","caller":"core/lifecycle.go:754","msg":"Context canceled"}
+{"level":"info","time":"2024-03-04T12:41:46.963-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Test Execution Time:                  15s"}
+{"level":"info","time":"2024-03-04T12:41:46.963-0500","caller":"core/lifecycle.go:757","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2024-03-04T12:41:46.964-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Job Duration Time:                    2m49s"}
+{"level":"error","time":"2024-03-04T12:41:46.964-0500","caller":"core/lifecycle.go:760","msg":"2024-03-04T12:38:12-05:00    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-03-04T12:41:46.965-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Total Tasks:                          1"}
+{"level":"info","time":"2024-03-04T12:41:46.965-0500","caller":"jobmanager/setup.go:372","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b466e3c4-794c-4e74-a0e8-4066ed6cf731\n"}
+{"level":"debug","time":"2024-03-04T12:41:46.966-0500","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-04T12:41:46.966-0500","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-03-04T12:41:46.966-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Cumulative Time Consumed:             2m49s"}
+{"level":"debug","time":"2024-03-04T12:41:46.967-0500","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"info","time":"2024-03-04T12:41:46.967-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Total Stages:                         3"}
+{"level":"debug","time":"2024-03-04T12:41:46.967-0500","caller":"cmd/bin.go:270","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-03-04T12:41:46.967-0500","caller":"cmd/bin.go:309","msg":"Exiting application due to error Failed tasks found."}
+{"level":"info","time":"2024-03-04T12:41:46.967-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-03-04T12:41:46.968-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"debug","time":"2024-03-04T12:47:24.708-0500","caller":"cmd/bin.go:105","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-03-04T12:47:24.967-0500","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.165} "}
+{"level":"debug","time":"2024-03-04T12:47:25.411-0500","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-04T12:47:25.413-0500","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-04T12:47:25.413-0500","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:47:25.413-0500","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:47:25.723-0500","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:47:25.759-0500","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: true"}
+{"level":"info","time":"2024-03-04T12:47:25.759-0500","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:47:25.760-0500","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:47:25.760-0500","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:47:25.761-0500","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:47:25.761-0500","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:47:25.761-0500","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-04T12:47:25.761-0500","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:47:25.761-0500","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-03-04T12:47:26.270-0500","caller":"core/lifecycle.go:418","msg":"Job ID: 97bc8601-ac05-4952-9ad2-976ac548a580"}
+{"level":"info","time":"2024-03-04T12:47:26.270-0500","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mTunnel: ON\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:47:26.270-0500","caller":"core/lifecycle.go:481","msg":"Starting 1 tunnels instances"}
+{"level":"debug","time":"2024-03-04T12:47:26.270-0500","caller":"tunnelmanager/setup.go:68","msg":"Download tunnel binary from https://downloads.hyperexecute.cloud/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:47:26.270-0500","caller":"tunnelmanager/setup.go:69","msg":"Tunnel binary download path C:\\repos_others\\restsharp-api-automation-demo/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:47:28.439-0500","caller":"core/lifecycle.go:504","msg":"Waiting for tunnels to start"}
+{"level":"info","time":"2024-03-04T12:47:28.439-0500","caller":"core/lifecycle.go:505","msg":"Tunnel started successfully"}
+{"level":"debug","time":"2024-03-04T12:47:28.442-0500","caller":"tunnelmanager/setup.go:307","msg":"Creating tunnel instance HeOBbRtyDQYRcawy #1, with params [--user rakesh.adepu --key ryAPoPBWyxnfkAuTrSNU6PogdCU1KPkTCLnKkRYO405lpumBom --callbackURL http://127.0.0.1:50363/started --env ht-prod --tunnelName HeOBbRtyDQYRcawy --retry-on-failure --infoAPIPort 50364 --logFile C:\\repos_others\\restsharp-api-automation-demo\\logs\\tunnel\\HeOBbRtyDQYRcawy-1.log]"}
+{"level":"debug","time":"2024-03-04T12:47:28.988-0500","caller":"storage/azure.go:55","msg":"Payload size: 5.19 kB, source path C:\\Users\\RADEPU~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-03-04T12:47:31.110-0500","caller":"tunnelmanager/setup.go:174","msg":"Running new tunnel instance HeOBbRtyDQYRcawy"}
+{"level":"debug","time":"2024-03-04T12:47:31.111-0500","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-03-04T12:47:31.111-0500","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:47:32.097-0500","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-04T12:47:32.097-0500","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-04T12:47:32.420-0500","caller":"tunnelmanager/setup.go:275","msg":"All tunnels closed successfully"}
+{"level":"debug","time":"2024-03-04T12:47:32.420-0500","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-04T12:47:32.420-0500","caller":"cmd/bin.go:309","msg":"Exiting application due to error ERR::ZIP::ARC     Unable to generate zip. open C:\\repos_others\\restsharp-api-automation-demo\\.vs\\RestSharpAPIAutomationDemo\\FileContentIndex\\27573c8a-ad12-4219-ae1c-3f3aa22e3b06.vsidx: The process cannot access the file because it is being used by another process.\n    Unable to parse target [C:\\repos_others\\restsharp-api-automation-demo] directory to archive files open C:\\repos_others\\restsharp-api-automation-demo\\.vs\\RestSharpAPIAutomationDemo\\FileContentIndex\\27573c8a-ad12-4219-ae1c-3f3aa22e3b06.vsidx: The process cannot access the file because it is being used by another process."}
+{"level":"debug","time":"2024-03-04T12:48:52.487-0500","caller":"cmd/bin.go:105","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-03-04T12:48:52.761-0500","caller":"cmd/bin.go:114","msg":"Upstream version details: {Name:cli Min:0.2.153 Max:0.2.165} "}
+{"level":"debug","time":"2024-03-04T12:48:53.156-0500","caller":"core/lifecycle.go:116","msg":"Setting environment"}
+{"level":"debug","time":"2024-03-04T12:48:53.158-0500","caller":"core/lifecycle.go:119","msg":"Parsing config"}
+{"level":"debug","time":"2024-03-04T12:48:53.158-0500","caller":"yamlconfigmanager/setup.go:539","msg":"Custom location for .hyperexecute.yaml specified. Using: Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:48:53.158-0500","caller":"yamlconfigmanager/setup.go:89","msg":"using hyperexecute config from : Lambdatest.yaml"}
+{"level":"debug","time":"2024-03-04T12:48:53.401-0500","caller":"yamlconfigmanager/setup.go:2031","msg":"Autodetecting test type in files of path : C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:48:53.402-0500","caller":"yamlconfigmanager/setup.go:391","msg":"Tunnel: true"}
+{"level":"info","time":"2024-03-04T12:48:53.402-0500","caller":"models/HypertestYamlConfig.go:591","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:48:53.403-0500","caller":"models/HypertestYamlConfig.go:395","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:48:53.403-0500","caller":"models/HypertestYamlConfig.go:455","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:48:53.403-0500","caller":"models/HypertestYamlConfig.go:463","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:48:53.403-0500","caller":"models/HypertestYamlConfig.go:524","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:48:53.404-0500","caller":"models/HypertestYamlConfig.go:604","msg":""}
+{"level":"debug","time":"2024-03-04T12:48:53.404-0500","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:48:53.404-0500","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-03-04T12:48:53.921-0500","caller":"core/lifecycle.go:418","msg":"Job ID: 3cc32338-0e67-4321-88ae-9f495ae6e8c0"}
+{"level":"info","time":"2024-03-04T12:48:53.921-0500","caller":"core/lifecycle.go:448","msg":"\u001b[102m\u001b[1m\u001b[30mTunnel: ON\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2024-03-04T12:48:53.921-0500","caller":"core/lifecycle.go:481","msg":"Starting 1 tunnels instances"}
+{"level":"debug","time":"2024-03-04T12:48:53.924-0500","caller":"tunnelmanager/setup.go:68","msg":"Download tunnel binary from https://downloads.hyperexecute.cloud/tunnel/v3/windows/amd64/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:48:53.926-0500","caller":"tunnelmanager/setup.go:69","msg":"Tunnel binary download path C:\\repos_others\\restsharp-api-automation-demo/LT.exe"}
+{"level":"debug","time":"2024-03-04T12:48:55.494-0500","caller":"core/lifecycle.go:504","msg":"Waiting for tunnels to start"}
+{"level":"info","time":"2024-03-04T12:48:55.494-0500","caller":"core/lifecycle.go:505","msg":"Tunnel started successfully"}
+{"level":"debug","time":"2024-03-04T12:48:55.496-0500","caller":"tunnelmanager/setup.go:307","msg":"Creating tunnel instance VkMjARVwRFefRUZF #1, with params [--user rakesh.adepu --key ryAPoPBWyxnfkAuTrSNU6PogdCU1KPkTCLnKkRYO405lpumBom --callbackURL http://127.0.0.1:50482/started --env ht-prod --tunnelName VkMjARVwRFefRUZF --retry-on-failure --infoAPIPort 50483 --logFile C:\\repos_others\\restsharp-api-automation-demo\\logs\\tunnel\\VkMjARVwRFefRUZF-1.log]"}
+{"level":"debug","time":"2024-03-04T12:48:56.362-0500","caller":"storage/azure.go:55","msg":"Payload size: 5.19 kB, source path C:\\Users\\RADEPU~1\\AppData\\Local\\Temp\\git.diff"}
+{"level":"debug","time":"2024-03-04T12:48:57.890-0500","caller":"tunnelmanager/setup.go:174","msg":"Running new tunnel instance VkMjARVwRFefRUZF"}
+{"level":"debug","time":"2024-03-04T12:48:57.891-0500","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-03-04T12:48:57.891-0500","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\repos_others\\restsharp-api-automation-demo"}
+{"level":"debug","time":"2024-03-04T12:49:22.457-0500","caller":"core/lifecycle.go:553","msg":"Zip file size: 32.14 MB"}
+{"level":"debug","time":"2024-03-04T12:49:22.460-0500","caller":"core/lifecycle.go:563","msg":"Archive location: C:\\repos_others\\restsharp-api-automation-demo\\hyperexecute-code-3cc32338-0e67-4321-88ae-9f495ae6e8c0.zip\n"}
+{"level":"debug","time":"2024-03-04T12:49:22.488-0500","caller":"storage/azure.go:55","msg":"Payload size: 32.14 MB, source path C:\\repos_others\\restsharp-api-automation-demo\\hyperexecute-code-3cc32338-0e67-4321-88ae-9f495ae6e8c0.zip"}
+{"level":"debug","time":"2024-03-04T12:49:29.345-0500","caller":"receptionmanager/setup.go:217","msg":"only one runtime entry detected, mapping it to older yaml format"}
+{"level":"debug","time":"2024-03-04T12:49:29.346-0500","caller":"receptionmanager/setup.go:149","msg":"Uploading yaml : C:\\repos_others\\restsharp-api-automation-demo\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:49:29.382-0500","caller":"storage/azure.go:55","msg":"Payload size: 2.88 kB, source path C:\\repos_others\\restsharp-api-automation-demo\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-03-04T12:49:34.087-0500","caller":"core/lifecycle.go:591","msg":"Successfully deleted code archive: C:\\repos_others\\restsharp-api-automation-demo\\hyperexecute-code-3cc32338-0e67-4321-88ae-9f495ae6e8c0.zip\n"}
+{"level":"info","time":"2024-03-04T12:49:44.951-0500","caller":"jobmanager/setup.go:129","msg":"Job 3cc32338-0e67-4321-88ae-9f495ae6e8c0 has started RUNNING"}
+{"level":"info","time":"2024-03-04T12:49:44.952-0500","caller":"jobmanager/setup.go:372","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=3cc32338-0e67-4321-88ae-9f495ae6e8c0\n"}
+{"level":"debug","time":"2024-03-04T12:49:44.953-0500","caller":"jobmanager/setup.go:138","msg":"New Tasks generated"}
+{"level":"debug","time":"2024-03-04T12:49:44.953-0500","caller":"jobmanager/setup.go:149","msg":"Task id: e6a7608b-6442-4651-8ac4-4c52311244ab"}
+{"level":"debug","time":"2024-03-04T12:49:44.953-0500","caller":"jobmanager/setup.go:152","msg":"Sending new task alert to stage manager for taskId: e6a7608b-6442-4651-8ac4-4c52311244ab"}
+{"level":"info","time":"2024-03-04T12:50:13.250-0500","caller":"terminal/terminal.go:185","msg":"✔ [1]  setup-runtime (30s)\n"}
+{"level":"info","time":"2024-03-04T12:50:38.148-0500","caller":"terminal/terminal.go:185","msg":"✔ [1]  pre (22s)\n"}
+{"level":"info","time":"2024-03-04T12:50:42.572-0500","caller":"terminal/terminal.go:185","msg":"✔ [1]  discovery (1s)\n"}
+{"level":"info","time":"2024-03-04T12:51:01.996-0500","caller":"terminal/terminal.go:185","msg":"x [1]  test (8s)\n"}
+{"level":"info","time":"2024-03-04T12:51:12.293-0500","caller":"terminal/terminal.go:185","msg":"x [1]  {retry 1} test (8s)\n"}
+{"level":"debug","time":"2024-03-04T12:51:14.972-0500","caller":"jobmanager/setup.go:204","msg":"\n\nJob status"}
+{"level":"info","time":"2024-03-04T12:51:14.972-0500","caller":"jobmanager/JobSummaryManager.go:37","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-03-04T12:51:14.972-0500","caller":"core/lifecycle.go:662","msg":"taskId:e6a7608b-6442-4651-8ac4-4c52311244ab has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2024-03-04T12:51:14.975-0500","caller":"core/lifecycle.go:754","msg":"Context canceled"}
+{"level":"info","time":"2024-03-04T12:51:14.973-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Test Execution Time:                  19s"}
+{"level":"info","time":"2024-03-04T12:51:14.978-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Job Duration Time:                    1m34s"}
+{"level":"info","time":"2024-03-04T12:51:14.975-0500","caller":"core/lifecycle.go:757","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2024-03-04T12:51:14.981-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Total Tasks:                          1"}
+{"level":"error","time":"2024-03-04T12:51:14.982-0500","caller":"core/lifecycle.go:760","msg":"2024-03-04T12:48:52-05:00    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-03-04T12:51:14.982-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Cumulative Time Consumed:             1m34s"}
+{"level":"info","time":"2024-03-04T12:51:14.982-0500","caller":"jobmanager/setup.go:372","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=3cc32338-0e67-4321-88ae-9f495ae6e8c0\n"}
+{"level":"debug","time":"2024-03-04T12:51:14.983-0500","caller":"core/lifecycle.go:54","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-03-04T12:51:14.983-0500","caller":"core/lifecycle.go:55","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2024-03-04T12:51:14.983-0500","caller":"core/lifecycle.go:58","msg":"All lifecycle goroutines exited"}
+{"level":"debug","time":"2024-03-04T12:51:14.983-0500","caller":"cmd/bin.go:309","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2024-03-04T12:51:14.983-0500","caller":"cmd/bin.go:270","msg":"main: all goroutines have finished."}
+{"level":"info","time":"2024-03-04T12:51:14.983-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Total Stages:                         3"}
+{"level":"info","time":"2024-03-04T12:51:14.983-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-03-04T12:51:14.983-0500","caller":"jobmanager/JobSummaryManager.go:96","msg":"    Failed discovery stage percentage:    0.00%"}
